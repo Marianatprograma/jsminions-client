@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jsminions-client/static/css/main.073c9b0a.css",
+    "main.js": "/jsminions-client/static/js/main.2e023e55.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/jsminions-client/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/minionsPhone.png": "/jsminions-client/static/media/minionsPhone.9aff4c98c0f7525f668b.png",
+    "index.html": "/jsminions-client/index.html",
+    "main.073c9b0a.css.map": "/jsminions-client/static/css/main.073c9b0a.css.map",
+    "main.2e023e55.js.map": "/jsminions-client/static/js/main.2e023e55.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/jsminions-client/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.2e023e55.js"
+  ]
+}
