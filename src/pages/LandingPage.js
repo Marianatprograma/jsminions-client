@@ -28,6 +28,8 @@ justify-content: center;
 flex-direction: column;
 align-items: center;
 
+font-weight: bold;
+
 .logo-container{
 
   width: 15rem;
