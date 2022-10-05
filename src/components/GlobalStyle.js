@@ -6,6 +6,10 @@ export const GlobalStyle = createGlobalStyle`
 
 :root{
 
+    --PrimaryColor: #FCE029;
+    --SecondaryColor: #0A75BC;
+    
+
     
 
 

@@ -1,19 +1,43 @@
-import React from 'react'
-function Dashboard() {
+import { Navbar } from "../components/Navbar";
+import styled from 'styled-components';
+import { Strings } from "../features/types/Strings";
+
+export const Dashboard = () => {
   return (
-    <div className='App'>
+    <StyledDashboard>
+      <Navbar />
 
+      <div className="minion">
+        <h3>Types</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, corrupti.</p>
       
+      
+        <div id="string">
+          <Strings/>
 
-        <p> Exercise Javascript </p>
-    
+        </div>
+{/* 
+        <div id="number">number</div>
 
-        
-    
+        <div id="boolean">boolean</div>
+
+        <div id="underfined">underfined</div>
+
+        <div id="null">null</div> */}
+      
+      
+      
+      </div>
 
 
-    </div>
-  )
-}
+    </StyledDashboard>
+  );
+};
+const StyledDashboard = styled.div`
+  padding: 1rem;
 
-export default Dashboard
+  display: flex;
+  flex-direction: column;
+
+  height: 100rem;
+`;
