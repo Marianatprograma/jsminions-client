@@ -8,9 +8,6 @@ export const GlobalStyle = createGlobalStyle`
 
     --PrimaryColor: #FCE029;
     --SecondaryColor: #0A75BC;
-    
-
-    
 
 
 
@@ -20,6 +17,10 @@ export const GlobalStyle = createGlobalStyle`
 }
 body{
     background: #0A75BC;
+}
+
+h3{
+    color: white;
 }
 
 `
