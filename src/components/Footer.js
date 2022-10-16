@@ -11,50 +11,53 @@ export const Footer = () => {
           <img src={minionsContact} alt="" />
         </div>
 
-        <div className="container-contact">
-          <input type="text" name="" id="" />
-          <button> Contact </button>
-
-          <div className="container-footer">
+        <div className="container-contact">  
             <p> About us </p>
-            <p> Our Projects </p>
-          </div>
-
-          <hr />
-
-          <p> All rights reserved 2022 </p>
+            <p> Our Projects </p>  
+            <hr />
+            <p> All rights reserved 2022 </p>
         </div>
       </div>
     </StyledFooter>
   );
 };
 const StyledFooter = styled.div`
+  width: 100%;
+  height: 100vh;
 
   display: flex;
   background: var(--Black);
-  width: 100%;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   padding: 2rem;
+  margin-top: 5rem;
+
 
   .container{
     position: relative;
+    width: 100%;
+    
     display: flex;
     background: var(--Coffee);
     max-width: 30rem;
-    width: 100%;
     border-radius: 1rem;
     color: white;
     padding: 2rem;
   }
 
+  .container-contact{
+    display: flex;
+    flex-direction: column;
+  }
+
   .container-img {
+    width: 8rem ;
+
     position: absolute;
-    top: -6rem;
-    right: -5rem;
-    max-width: 10rem;
-    padding: 1rem;
-   
+    top: -5rem;
+    right: -1rem;
+    
+    overflow: hidden;
 
     img {
       width: 100%;

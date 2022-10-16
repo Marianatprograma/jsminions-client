@@ -24,7 +24,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Quicksand', sans-serif;
 }
 body{
-    background: var(--SecondaryColor);
+    background: var(--SecondaryColor);  
     
 }
 

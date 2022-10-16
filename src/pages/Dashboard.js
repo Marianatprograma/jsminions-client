@@ -7,6 +7,7 @@ export const Dashboard = () => {
     <PageModel>
       <StyledDashboard>
         <Welcome />
+        
       </StyledDashboard>
     </PageModel>
   );

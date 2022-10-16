@@ -7,6 +7,7 @@ export const Types = () => {
     <PageModel>
       <StyledTypes>
         <Strings />
+        
       </StyledTypes>
     </PageModel>
   );

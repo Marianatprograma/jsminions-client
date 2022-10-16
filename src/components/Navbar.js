@@ -88,7 +88,7 @@ export const Navbar = () => {
 
 const StyledNavbar = styled.div`
   background: var(--PrimaryColor);
-  /* width: 100%; */
+  width: 100%;
   margin: 1rem;
   max-width: 50rem;
 
