@@ -14,7 +14,7 @@ export const LandingPage = () => {
       </div>
       <div className="text-container">
 
-      <p>Learn JavaScript with us</p>
+      <p>Learn JavaScript with Minions</p>
       <Link to="/dashboard"> Start </Link>
       </div>
     </StyledLandingPage>

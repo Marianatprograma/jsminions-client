@@ -11,6 +11,8 @@ export const Strings = () => {
     },
   });
 
+
+  
   const counter = () => {
     let insertedData = document.getElementById("exercise1").value;
     console.log(insertedData);
@@ -42,8 +44,12 @@ export const Strings = () => {
     });
   };
 
+
+
+ 
   return (
     <StyledStrings>
+
       <h3>Strings</h3>
       <p>
         A string is a chain of <strong>characters </strong>

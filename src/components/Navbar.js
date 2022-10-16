@@ -1,4 +1,4 @@
-import React from "react";
+import {Link} from "react-router-dom";
 import styled from "styled-components";
 import {VscTriangleDown} from 'react-icons/vsc'
 import minionSurprise from '../assets/minion1.png'
@@ -7,70 +7,78 @@ export const Navbar = () => {
   return (
     <StyledNavbar>
       <div className="title">
-        <a href="#types">Types</a>
+        <p> Types </p>
         <VscTriangleDown/>
         <div className="subtitle">
-          <a href="#string">string</a>
-          <a href="#number">number</a>
-          <a href="#boolean">boolean</a>
-          <a href="#undefined">undefined</a>
-          <a href="#null">null</a>
+          <Link to={'/types'}>string</Link>
+          <Link to={'/types'}>number</Link>
+          <Link to={'/types'}>boolean</Link>
+          <Link to={'/types'}>undefined</Link>
+          <Link to={'/types'}>null</Link>
         </div>
       </div>
       <div className="title">
-        <a href="#">Operators</a>
+        <p> Operators </p>
+
         <VscTriangleDown/>
+
         <div className="subtitle">
-          <a href="#types"> Type </a>
-          <a href="#types"> Aritmetic </a>
-          <a href="#types"> Assignment </a>
-          <a href="#types"> Comparison </a>
-          <a href="#types"> Logical </a>
-          <a href="#types"> Conditional </a>
+          <Link to={'/'}> Type </Link>
+          <Link to={'/'}> Aritmetic </Link>
+          <Link to={'/'}> Assignment </Link>
+          <Link to={'/'}> Comparison </Link>
+          <Link to={'/'}> Logical </Link>
+          <Link to={'/'}> Conditional </Link>
         </div>
       </div>
       <div className="title">
-        <a href="#f">Functions</a>
-        <VscTriangleDown/>
-        <div className="subtitle">
-          <a href="#types"> Math </a>
-          <a href="#types"> If Else </a>
-          <a href="#types"> Loop For </a>
-          <a href="#types"> Loop While </a>
-          <a href="#types"> Map </a>
-          <a href="#types"> Date </a>
-        </div>
+        <p> Functions   </p>
 
 
-      </div>
-      <div className="title">
-        <a href="#o">Objects</a>
+
         <VscTriangleDown/>
         <div className="subtitle">
-          <a href="#types"> Classes </a>
-          <a href="#types"> Properties and Methods </a>
-          <a href="#types"> Constructor </a>
+          <Link to={'/'}> Math </Link>
+          <Link to={'/'}> If Else </Link>
+          <Link to={'/'}> Loop For </Link>
+          <Link to={'/'}> Loop While </Link>
+          <Link to={'/'}> Map </Link>
+          <Link to={'/'}> Date </Link>
+        </div>
+
+      </div>
+      <div className="title">
+        <p> Objects </p>
+
+        <VscTriangleDown/>
+        <div className="subtitle">
+          <Link to={'/'}> Classes </Link>
+          <Link to={'/'}> Properties and Methods </Link>
+          <Link to={'/'}> Constructor </Link>
           
         </div>
 
 
       </div>
       <div className="title">
-        <a href="#e">Events</a>
+        <p> Events </p>
+
         <VscTriangleDown/>
         <div className="subtitle">
-          <a href="#types"> onclick </a>
-          <a href="#types"> onchange</a>
-          <a href="#types"> onload </a>
-          <a href="#types"> onkeydown </a>
-          <a href="#types"> onmouseover and out </a>
+          <Link to={'/'}> onclick </Link>
+          <Link to={'/'}> onchange</Link>
+          <Link to={'/'}> onload </Link>
+          <Link to={'/'}> onkeydown </Link>
+          <Link to={'/'}> onmouseover and out </Link>
 
           
         </div>
       </div>
 
       <div className="minion">
-      <img src={minionSurprise} alt="" />
+
+        <Link to={'/dashboard'}> <img src={minionSurprise} alt="MinionsCuriosos" /> </Link>
+         
 
       </div>
 
@@ -80,29 +88,39 @@ export const Navbar = () => {
 
 const StyledNavbar = styled.div`
   background: var(--PrimaryColor);
+  /* width: 100%; */
+  margin: 1rem;
+  max-width: 50rem;
 
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  align-self: center;
   border-radius: 1rem;
   padding: 1rem;
-
-
+  gap: 1.2rem;
+  flex-wrap: wrap;
 
   .title {  
     display: flex;
     position: relative;
-      
-    > a {
+    justify-content: center;
+    align-items: center;
+        
+    > p {
         display: flex;
         flex-direction: column;
         text-decoration: none;
         color: black;
         font-weight: bold;
+        padding: .1rem;
+        cursor: pointer;
       }
 
 
       :hover .subtitle{
         display: flex;
+        z-index: 1000;
     }
 }
 
