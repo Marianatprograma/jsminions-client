@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/jsminions-client/static/js/main.18f7a546.js",
+    "main.js": "/jsminions-client/static/js/main.32efb7d3.js",
     "static/js/787.c4e7f8f9.chunk.js": "/jsminions-client/static/js/787.c4e7f8f9.chunk.js",
     "static/media/minionsPhone.png": "/jsminions-client/static/media/minionsPhone.9aff4c98c0f7525f668b.png",
     "static/media/minionsContact.png": "/jsminions-client/static/media/minionsContact.74c967be542031b0976d.png",
     "static/media/minion1.png": "/jsminions-client/static/media/minion1.19e0ac80c175568d73f2.png",
     "index.html": "/jsminions-client/index.html",
-    "main.18f7a546.js.map": "/jsminions-client/static/js/main.18f7a546.js.map",
+    "main.32efb7d3.js.map": "/jsminions-client/static/js/main.32efb7d3.js.map",
     "787.c4e7f8f9.chunk.js.map": "/jsminions-client/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.18f7a546.js"
+    "static/js/main.32efb7d3.js"
   ]
 }
