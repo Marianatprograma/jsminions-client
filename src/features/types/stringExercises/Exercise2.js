@@ -15,7 +15,7 @@ export const Exercise2 = () => {
 
   return (
     <StyledExercise2>
-      <li> Exercise 2</li>
+      <h4> Exercise 2</h4>
 
       <h4> Method toUpperCase </h4>
 
@@ -29,6 +29,7 @@ export const Exercise2 = () => {
           onChange={upperCaseHandler}
         />
         <div className="result">
+          <h4>Result</h4>
           <p>{result}</p>
         </div>
       </div>
@@ -36,7 +37,9 @@ export const Exercise2 = () => {
   );
 };
 const StyledExercise2 = styled.div`
-  border: 1px solid white;
+  
+  background: hsla(0, 0%, 100%, 0.2);
+
   padding: 1rem;
   border-radius: 1rem;
   margin: 1rem;

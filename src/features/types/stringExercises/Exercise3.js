@@ -23,7 +23,7 @@ export const Exercise3 = () => {
 
   return (
     <StyledExercise3>
-      <li> Exercise 3</li>
+      <h4> Exercise 3</h4>
 
       <h4> Method replace() </h4>
 
@@ -56,7 +56,7 @@ export const Exercise3 = () => {
   );
 };
 const StyledExercise3 = styled.div`
-  border: 1px solid white;
+  background: hsla(0, 0%, 100%, 0.2);
   padding: 1rem;
   border-radius: 1rem;
   margin: 1rem;

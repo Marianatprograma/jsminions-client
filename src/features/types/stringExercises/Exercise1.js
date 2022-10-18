@@ -21,7 +21,7 @@ export const Exercise1 = () => {
   return (
     <StyledExercise1>
    
-        <li> Exercise 1</li>
+        <h4> Exercise 1</h4>
 
         <div className="content">
           <input
@@ -31,6 +31,7 @@ export const Exercise1 = () => {
             onChange={counter}
           />
           <div className="result">
+            <h5> Result </h5>
             <p>{result}</p>
           </div>
         </div>
@@ -44,9 +45,11 @@ export const Exercise1 = () => {
 const StyledExercise1 = styled.div`
 
 
-border: 1px solid white;
-padding: 1rem;
+
+background: hsla(0, 0%, 100%, 0.2);
 border-radius: 1rem;
+padding: 1rem;
+
 margin: 1rem;
 
 

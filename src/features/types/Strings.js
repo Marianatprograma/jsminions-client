@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Exercise1 } from "./stringExercises/Exercise1";
 import { Exercise2 } from "./stringExercises/Exercise2";
 import { Exercise3 } from "./stringExercises/Exercise3";
+import { Exercise4 } from "./stringExercises/Exercise4";
 
 export const Strings = () => {
  
@@ -19,6 +20,7 @@ export const Strings = () => {
       <Exercise1/>
       <Exercise2/>
       <Exercise3/>    
+      <Exercise4/>    
 
        
       
@@ -29,9 +31,9 @@ export const Strings = () => {
 const StyledStrings = styled.div`
   .content {
     padding: 1rem;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     gap: 1rem;
   }
 
