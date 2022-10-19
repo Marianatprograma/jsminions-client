@@ -9,9 +9,9 @@ export const Exercise3 = () => {
   const replaceHandler = (e) => {
     let inicial = e.target.value;
 
-    let resultRegex = inicial.replace(/a/g, "x");
+    let resultRegex = inicial.replace(/a/g, "😊");
 
-    let resultReplace = inicial.replace("a", "x");
+    let resultReplace = inicial.replace("a", "😊");
     setResult({
       ...result,
         resultado1: resultRegex,
@@ -38,16 +38,16 @@ export const Exercise3 = () => {
         />
         <div className="result">
           <p> Replace all matches </p>
-          <textarea name="" id="" cols="30" rows="1">
-            input.value.replace(/a/g, "x")
+          <textarea name="" id="" cols="30" rows="2">
+            input.value.replace(/a/g, "😊")
           </textarea>
           <p>{result.resultado1}</p>
         </div>
         <div className="result">
           <p> Replace first found </p>
 
-          <textarea name="" id="" cols="30" rows="1">
-            input.value.replace("a", "x")
+          <textarea name="" id="" cols="30" rows="2">
+            input.value.replace("a", "😊")
           </textarea>
           <p>{result.resultado2}</p>
         </div>

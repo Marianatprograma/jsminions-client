@@ -52,7 +52,7 @@ export const Exercise4 = () => {
       </div>
 
       <textarea name="" id="" cols="30" rows="1">
-          string1.include("string2")
+          input.value.include(input.value)
         </textarea>
     </StyledExercise4>
   );
