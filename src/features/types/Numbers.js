@@ -10,6 +10,8 @@ export const Numbers = () => {
 
         <h3> Numbers </h3>
 
+      
+
         <Exercise1/>
 
 

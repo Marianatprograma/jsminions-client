@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useState } from "react";
+import { useLayoutEffect, useState } from "react";
 import styled from "styled-components";
 import { Exercise1 } from "./stringExercises/Exercise1";
 import { Exercise2 } from "./stringExercises/Exercise2";
@@ -17,8 +17,8 @@ export const Strings = () => {
     let container = document.querySelector(".container")
     let containerSizes = container.getBoundingClientRect();
     size = containerSizes.height;
-    console.log(containerSizes);
-    console.log(size);   
+    // console.log(containerSizes);
+    // console.log(size);   
 
     setContentHeight(size);      
 
