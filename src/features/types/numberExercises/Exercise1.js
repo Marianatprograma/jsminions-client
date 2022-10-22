@@ -1,19 +1,23 @@
 import styled from "styled-components";
 
-import { useState } from "react";
+import {useState } from "react";
 
 export const Exercise1 = () => {
+
+
+  const [values, setValues] = useState(
+    {
+      number1: 0,
+      number2: 0,
+    }
+  )
   const [result, setResult] = useState('');
 
  
-  let values = {
-    number1: 0,
-    number2: 0,
-  };
+  const getNumbers = ({ target: { id, value } }) => {    
 
- 
-  const getNumbers = ({ target: { id, value } }) => {
-    values[id] = parseInt(value);
+    setValues(current => ({...current,[id] : parseInt(value)}));
+
   };
 
   const Add = () => {
@@ -21,6 +25,21 @@ export const Exercise1 = () => {
     let resultado = values.number1 + values.number2;
     setResult(resultado);
   };
+
+  const Substract = () => {
+    let resultado = values.number1 - values.number2;
+    setResult(resultado);
+  }
+  const Multiply = () => {
+    let resultado = values.number1 * values.number2;
+    setResult(resultado);
+  }
+  const Divide = () => {
+    let resultado = values.number1 / values.number2;
+    setResult(resultado);
+  }
+
+
 
   return (
     <StyledExercise1>
@@ -43,9 +62,9 @@ export const Exercise1 = () => {
 
       <div className="operations">
         <input type="button" value="Add" onClick={Add} />
-        <input type="button" value="Subtract" />
-        <input type="button" value="Multiply" />
-        <input type="button" value="Divide" />
+        <input type="button" value="Subtract" onClick={Substract} />
+        <input type="button" value="Multiply" onClick={Multiply} />
+        <input type="button" value="Divide" onClick={Divide} />
       </div>
 
       <div className="result">
