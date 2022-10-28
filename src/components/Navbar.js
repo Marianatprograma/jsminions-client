@@ -33,17 +33,14 @@ export const Navbar = () => {
       </div>
       <div className="title">
         <p> Functions   </p>
-
-
-
         <VscTriangleDown/>
         <div className="subtitle">
-          <Link to={'/'}> Math </Link>
-          <Link to={'/'}> If Else </Link>
-          <Link to={'/'}> Loop For </Link>
-          <Link to={'/'}> Loop While </Link>
-          <Link to={'/'}> Map </Link>
-          <Link to={'/'}> Date </Link>
+          <Link to={'/functions'}> Math </Link>
+          <Link to={'/functions'}> If Else </Link>
+          <Link to={'/functions'}> Loop For </Link>
+          <Link to={'/functions'}> Loop While </Link>
+          <Link to={'/functions'}> Map </Link>
+          <Link to={'/functions'}> Date </Link>
         </div>
 
       </div>
@@ -65,11 +62,11 @@ export const Navbar = () => {
 
         <VscTriangleDown/>
         <div className="subtitle">
-          <Link to={'/'}> onclick </Link>
-          <Link to={'/'}> onchange</Link>
-          <Link to={'/'}> onload </Link>
-          <Link to={'/'}> onkeydown </Link>
-          <Link to={'/'}> onmouseover and out </Link>
+          <Link to={'/events'}> onclick </Link>
+          <Link to={'/events'}> onchange</Link>
+          <Link to={'/events'}> onload </Link>
+          <Link to={'/events'}> onkeydown </Link>
+          <Link to={'/events'}> onmouseover and out </Link>
 
           
         </div>

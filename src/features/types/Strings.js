@@ -1,4 +1,4 @@
-import { useLayoutEffect, useState } from "react";
+import {useLayoutEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import { Exercise1 } from "./stringExercises/Exercise1";
 import { Exercise2 } from "./stringExercises/Exercise2";
@@ -10,25 +10,21 @@ export const Strings = () => {
   const [show, setShow] = useState(true);
 
   //valor del height es variable segun el zoom
-  let size = '';
+ 
+  const containerRef = useRef()
 
-  
-  useLayoutEffect(() => {    
-    let container = document.querySelector(".container")
-    let containerSizes = container.getBoundingClientRect();
-    size = containerSizes.height;
-    // console.log(containerSizes);
-    // console.log(size);   
-
-    setContentHeight(size);      
-
+  useLayoutEffect(() => {  
     
+    // console.log(containerRef.current.getBoundingClientRect().height)
+
+    let size = containerRef.current.getBoundingClientRect().height;
+    setContentHeight(size);   
+   
   }, [])
   
   
        
-  const showHandler = () => {
-      
+  const showHandler = () => {      
     
     if (show) {
       document.querySelector(".container").style.height = "0";
@@ -51,7 +47,7 @@ export const Strings = () => {
         you can do many things with them
       </p>
 
-      <div className="container">
+      <div ref={containerRef} className="container">
         <Exercise1 />
         <Exercise2 />
         <Exercise3 />
@@ -79,13 +75,5 @@ const StyledStrings = styled.div`
     gap: 1rem;
   }
 
-  textarea {
-    background: black;
-    color: skyblue;
-    padding: 1rem;
-  }
-
-  h3 {
-    color: white;
-  }
+  
 `;

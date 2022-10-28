@@ -22,12 +22,10 @@ export const LandingPage = () => {
 };
 
 const StyledLandingPage = styled.div`
-
 display: flex;
 justify-content: center;
 flex-direction: column;
 align-items: center;
-
 font-weight: bold;
 
 .logo-container{

@@ -7,18 +7,12 @@ import {RiLightbulbFlashLine,RiLightbulbFlashFill} from "react-icons/ri";
 
 
 
-import { useEffect, useState } from "react";
+import { useRef, useState } from "react";
 
 export const Boolean = () => {
-    const [taller, setTaller] = useState(false);
-
-    useEffect(() => {
-      
-        console.log(taller);
-      
-    }, [taller])
+    const [taller, setTaller] = useState(false);    
     
-
+    
 
 
   return (
@@ -40,6 +34,10 @@ export const Boolean = () => {
           <img src={Dave} alt="Dave-minion" onClick={() => {setTaller(false)}} />
         </div>
       </div>
+
+
+     
+      
         
 
 

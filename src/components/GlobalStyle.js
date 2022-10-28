@@ -32,5 +32,12 @@ h3{
     color: white;
 }
 
+textarea {
+    background: black;
+    color: skyblue;
+    padding: 1rem;
+}
+
+
 `
 
