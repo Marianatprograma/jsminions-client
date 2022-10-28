@@ -1,11 +1,13 @@
 import styled from 'styled-components';
-import React from 'react'
+import { useId } from 'react'
 
-export const Square = ({element}) => {
+export const Square = () => {
+
+  const id = useId()
+
   return (
-    <StyledSquare >
-        <p> {element} </p>
-        {/* <input type="text" /> */}
+    <StyledSquare className='square' id={id}>
+                
 
     </StyledSquare>
   )

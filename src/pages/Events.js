@@ -16,4 +16,6 @@ export const Events = () => {
   );
 };
 
-const StyledEvents = styled.div``;
+const StyledEvents = styled.div`
+
+`;
