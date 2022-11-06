@@ -6,6 +6,7 @@ import { Exercise3 } from "./stringExercises/Exercise3";
 import { Exercise4 } from "./stringExercises/Exercise4";
 
 export const Strings = () => {
+
   const [contentHeight, setContentHeight] = useState('');
   const [show, setShow] = useState(true);
 
@@ -41,6 +42,7 @@ export const Strings = () => {
     <StyledStrings>
       <div onClick={showHandler} className="titulo">
         <h3>Strings </h3>
+        
       </div>
       <p>
         A string is a chain of <strong>characters </strong>
@@ -48,6 +50,7 @@ export const Strings = () => {
       </p>
 
       <div ref={containerRef} className="container">
+        
         <Exercise1 />
         <Exercise2 />
         <Exercise3 />

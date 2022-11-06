@@ -1,0 +1,72 @@
+[
+    { 
+        "id": 0, 
+        "name": "Bob", 
+        "age": 2,
+        "tall" : false,
+        "accessories": ["Teddy bear", "glasses", "overall" ],
+        "personality": ["cute", "annoying"],
+        "physique": ["fat", "bold", "small", "twoEyes"],
+        "img": "bob.png"
+
+    },
+    { 
+        "id": 1, 
+        "name": "Carl", 
+        "age": 5,
+        "tall" : true,
+        "accessories": ["glasses", "overall", "red sirens" ],
+        "personality": ["singer", "cheerful", "noisy"],
+        "physique": ["oneEye"],
+        "img": "carl.png"
+
+    },
+    { 
+        "id": 2, 
+        "name": "Darwin", 
+        "age": 5,
+        "tall" : true,
+        "accessories": ["glasses", "overall", "bananas" ],
+        "personality": ["egoistic", "problematic", "polite"],
+        "physique": ["oneEye", "combed hair"],
+        "img": "darwin.png"
+
+    },
+    { 
+        "id": 3, 
+        "name": "Larry", 
+        "age": 4,
+        "tall" : false,
+        "accessories": ["glasses", "overall", "bananas" ],
+        "personality": ["dancer", "messy"],
+        "physique": ["twoEyes", "spiky hair"],
+        "img": "larry.png"
+
+    },
+    { 
+        "id": 4, 
+        "name": "Kevin", 
+        "age": 7,
+        "tall" : true,
+        "accessories": ["glasses", "overall", "golf apparel" ],
+        "personality": ["teaser", "bravest", "leader","flirty"],
+        "physique": ["twoEyes", "sprout cut hair"],
+        "img": "kevin.png"
+
+    },
+    { 
+        "id": 5, 
+        "name": "Dave", 
+        "age": 5,
+        "tall" : false,
+        "accessories": ["glasses", "overall", "handicrafts from foods" ],
+        "personality": ["smart", "love ice cream", "kind","charming"],
+        "physique": ["twoEyes", "half-split hair"],
+        "img": "dave.png"
+
+    }
+
+  
+
+
+]

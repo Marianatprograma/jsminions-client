@@ -49,9 +49,10 @@ export const Navbar = () => {
 
         <VscTriangleDown/>
         <div className="subtitle">
-          <Link to={'/'}> Classes </Link>
-          <Link to={'/'}> Properties and Methods </Link>
-          <Link to={'/'}> Constructor </Link>
+          <Link to={'/objects'}> Colections </Link>
+          <Link to={'/objects'}> Classes </Link>
+          <Link to={'/objects'}> Properties and Methods </Link>
+          <Link to={'/objects'}> Constructor </Link>
           
         </div>
 
@@ -67,6 +68,7 @@ export const Navbar = () => {
           <Link to={'/events'}> onload </Link>
           <Link to={'/events'}> onkeydown </Link>
           <Link to={'/events'}> onmouseover and out </Link>
+          <Link to={'/events'}> Bubbling </Link>
 
           
         </div>

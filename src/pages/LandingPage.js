@@ -9,8 +9,8 @@ export const LandingPage = () => {
     <StyledLandingPage>
       <div className="logo-container">
 
-      <img src={logoMinions} alt="logo" />
-      <img src={jsLogo} alt="logo-js" />
+      <img src={logoMinions} alt="logo" loading="eager"/>
+      <img src={jsLogo} alt="logo-js" loading="eager" />
       </div>
       <div className="text-container">
 
