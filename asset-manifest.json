@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.js": "/jsminions-client/static/js/main.de6a9c10.js",
+    "main.js": "/jsminions-client/static/js/main.7a5666dd.js",
     "static/js/787.c4e7f8f9.chunk.js": "/jsminions-client/static/js/787.c4e7f8f9.chunk.js",
     "static/media/minionsPhone.png": "/jsminions-client/static/media/minionsPhone.9aff4c98c0f7525f668b.png",
     "static/media/minionsContact.png": "/jsminions-client/static/media/minionsContact.74c967be542031b0976d.png",
+    "static/media/bob.png": "/jsminions-client/static/media/bob.2c02ca9e0211b9c35a4b.png",
     "static/media/minion1.png": "/jsminions-client/static/media/minion1.19e0ac80c175568d73f2.png",
     "static/media/kevin.webp": "/jsminions-client/static/media/kevin.99c234dcff05a07688de.webp",
     "static/media/Dave.webp": "/jsminions-client/static/media/Dave.3c3b17bf958c803f6721.webp",
     "index.html": "/jsminions-client/index.html",
-    "main.de6a9c10.js.map": "/jsminions-client/static/js/main.de6a9c10.js.map",
+    "main.7a5666dd.js.map": "/jsminions-client/static/js/main.7a5666dd.js.map",
     "787.c4e7f8f9.chunk.js.map": "/jsminions-client/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.de6a9c10.js"
+    "static/js/main.7a5666dd.js"
   ]
 }
