@@ -15,7 +15,8 @@ export const Footer = () => {
             <p> About us </p>
             <p> Our Projects </p>  
             <hr />
-            <p> All rights reserved 2022 </p>
+            <p> All rights reserved 2023 </p>
+            <p>Mariana Taborda SAS</p>
         </div>
       </div>
     </StyledFooter>
